@@ -13,6 +13,5 @@ function Update () {
 }
 
 function OnTriggerEnter(obj : Collider) {
-	Debug.Log("Billet Trriger Enter");
 	Destroy(obj.gameObject);
 }
